@@ -43,8 +43,6 @@ public class FinderTest extends BaseTest {
     }
 
 
-
-
     private void load(Runnable runnable, Integer numberOfThread, Integer threadWaitTimeout) throws InterruptedException {
 
         ExecutorService service = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
