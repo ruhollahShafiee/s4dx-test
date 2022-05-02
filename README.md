@@ -7,8 +7,8 @@ The following was discovered as part of building this project:
 
 # Getting Started
 
-### Start Command
-* ####./mvnw clean install
+Start Command
+./mvnw clean install
 * ####openjdk version "11.0.15" 2022-04-19
 
 
