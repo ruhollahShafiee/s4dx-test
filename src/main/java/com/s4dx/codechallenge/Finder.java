@@ -36,7 +36,7 @@ public class Finder {
 //    multiplying prime numbers we will always end up with unique products
     private long convertStringToMultipliedNumber(String param) {
 
-        long number = 1L;
+        long number = 1l;
         for (Character index : param.toCharArray()) {
             number = number * (this.primes[index]);
         }
