@@ -24,6 +24,17 @@ public class FinderTest extends BaseTest {
 
     }
 
+    @Test
+    public void givenEmptyArray_WhenNotExistAnySameCharacters() {
+
+        String[] thisIsAStringArray = new String[]{"asd", "ads", "ads ", "asdd", "fre", "glk", "lkm"};
+        Finder finder = new Finder(thisIsAStringArray);
+        String[] actualStr = finder.find("sadtot");
+        String[] expectedStr = new String[0];
+        Assert.assertEquals(expectedStr, actualStr);
+
+    }
+
     @Test(timeOut = 5000)
     public void loadTest() throws InterruptedException {
 
